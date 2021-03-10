@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form lấy survey khách hàng</title>
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<form>
+    <label for="old"><b>What is your age range?</b></label><br>
+    <select name="old" id="old">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value=">50">50+</option>
+    </select><br>
+    <label for="money"><b>What is your yearly income range?
+    </b></label><br>
+    <select name="money" id="money">
+        <option value="0-25000">$0-$25000</option>
+        <option value="25001-50000">$25001-$50000</option>
+        <option value="50001-100000">$50001-$100000</option>
+        <option value=">100000">$100000</option>
+    </select><br>
+    <label for="gender"><b>Gender Identity</b></label> <br>
+    <input type="radio" name="gender" id="gender">Male <br>
+    <input type="radio" name="gender" type="radio">Female <br>
+    <label for="product"><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.
+    </b></label><br>
+    <input type="checkbox" id="product"> Product 1 <br>
+    <input type="checkbox"> Product 2 <br>
+    <input type="checkbox"> Product 3 <br>
+    <label for="how-often"><b>How often would you use our new product?
+    </b></label> <br>
+    <input type="radio" id="how-often" name="how-often">Daily <br>
+    <input type="radio"name="how-often">Weekly <br>
+    <input type="radio"name="how-often">Monthly <br>
+
+</form>
+</body>
+</html>
